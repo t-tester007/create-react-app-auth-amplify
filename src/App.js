@@ -16,12 +16,11 @@ class App extends Component {
   };
   uploadImage = () => {
 
-     
-     Storage.configure({
+     Storage.configure({ 
           bucket: "ac-storage-upload-absimple40051-devm",
           level: "private",
-          region: "ap-southeast-1",
-          identityPoolId: "ap-southeast-1:a434f446-bdc3-44d6-ab75-5e2cba3e579f"
+          region: "ap-southeast-1",  
+          identityPoolId: "ap-southeast-1:a434f446-bdc3-44d6-ab75-5e2cba3e579f" 
        });
 
     this.setState({response:  "uploading file..."});

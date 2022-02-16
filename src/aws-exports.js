@@ -3,10 +3,10 @@
 
 const awsmobile = {
     "aws_project_region": "ap-southeast-1",
-    "aws_cognito_identity_pool_id": "ap-southeast-1:f9cac8e9-9c0c-46c2-8893-a2fa87a90591",
+    "aws_cognito_identity_pool_id": "ap-southeast-1:a434f446-bdc3-44d6-ab75-5e2cba3e579f",
     "aws_cognito_region": "ap-southeast-1",
-    "aws_user_pools_id": "ap-southeast-1_P00sDIWWr",
-    "aws_user_pools_web_client_id": "66phfv0hj621hiu52ho10ekklf",
+    "aws_user_pools_id": "ap-southeast-1_V614DVbpl",
+    "aws_user_pools_web_client_id": "1dt73jv6rnatpa8dpfu7llsgmh",
     "oauth": {},
     "aws_cognito_username_attributes": [],
     "aws_cognito_social_providers": [],
@@ -19,17 +19,12 @@ const awsmobile = {
     ],
     "aws_cognito_password_protection_settings": {
         "passwordPolicyMinLength": 8,
-        "passwordPolicyCharacters": [
-            "REQUIRES_LOWERCASE",
-            "REQUIRES_UPPERCASE",
-            "REQUIRES_NUMBERS",
-            "REQUIRES_SYMBOLS"
-        ]
+        "passwordPolicyCharacters": []
     },
     "aws_cognito_verification_mechanisms": [
         "EMAIL"
     ],
-    "aws_user_files_s3_bucket": "ac-upload-storage-ab141843-devm",
+    "aws_user_files_s3_bucket": "ac-storage-upload-absimple40051-devm",
     "aws_user_files_s3_bucket_region": "ap-southeast-1"
 };
 
