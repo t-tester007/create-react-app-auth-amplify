@@ -18,7 +18,7 @@ class App extends Component {
 
      Storage.configure({ 
           bucket: "ac-upload-storage-ab141843-devm",
-          level: "protected",
+          level: "private",
           region: "ap-southeast-1",  
           identityPoolId: "ap-southeast-1:f9cac8e9-9c0c-46c2-8893-a2fa87a90591" 
        });

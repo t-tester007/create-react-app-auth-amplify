@@ -29,7 +29,7 @@ const awsmobile = {
     "aws_cognito_verification_mechanisms": [
         "EMAIL"
     ],
-    "aws_user_files_s3_bucket": "ac-user-stroage-ugc141843-devm",
+    "aws_user_files_s3_bucket": "ac-upload-storage-ab141843-devm",
     "aws_user_files_s3_bucket_region": "ap-southeast-1"
 };
 

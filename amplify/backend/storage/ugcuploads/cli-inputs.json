@@ -1,0 +1,12 @@
+{
+  "resourceName": "ugcuploads",
+  "policyUUID": "bb96fb60",
+  "bucketName": "ac-upload-storage-ab",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
