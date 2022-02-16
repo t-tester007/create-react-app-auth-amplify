@@ -14,18 +14,16 @@ class App extends Component {
     imageFile: "",
     response: ""
   };
-
   uploadImage = () => {
-  
 
      Storage.configure({ 
-          bucket: "ac-users-storage-upload141843-devm",
+          bucket: "ac-user-stroage-ugc141843-devm",
           level: "private",
           region: "ap-southeast-1",  
           identityPoolId: "ap-southeast-1:f9cac8e9-9c0c-46c2-8893-a2fa87a90591" 
        });
 
-    this.setState({response: "Uploading file..."});
+    this.setState({response:  "uploading file..."});
     Storage.put(`videos/${this.upload.files[0].name}`,
                 this.upload.files[0],
                 { contentType: this.upload.files[0].type })
