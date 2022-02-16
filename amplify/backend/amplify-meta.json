@@ -23,11 +23,13 @@
         "AppClientID": "37pdgff34053fukam45nv51pom",
         "IdentityPoolId": "ap-southeast-1:f9cac8e9-9c0c-46c2-8893-a2fa87a90591",
         "IdentityPoolName": "cognitocf0c6096_identitypool_cf0c6096__devm",
-        "UserPoolName": "cognitocf0c6096_userpool_cf0c6096"
+        "UserPoolName": "cognitocf0c6096_userpool_cf0c6096",
+        "CreatedSNSRole": "arn:aws:iam::061052618044:role/snsundefined141843-devm",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-1:061052618044:userpool/ap-southeast-1_P00sDIWWr"
       },
-      "lastPushTimeStamp": "2022-02-16T01:37:57.698Z",
+      "lastPushTimeStamp": "2022-02-16T02:50:58.064Z",
       "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-authcra-devm-141843-deployment/amplify-cfn-templates/auth/cognitocf0c6096-cloudformation-template.yml",
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-authcra-devm-141843-deployment/amplify-cfn-templates/auth/cognitocf0c6096-cloudformation-template.json",
         "logicalId": "authcognitocf0c6096"
       },
       "frontendAuthConfig": {
@@ -52,24 +54,36 @@
         "verificationMechanisms": [
           "EMAIL"
         ]
-      }
+      },
+      "lastPushDirHash": "xbG6bYvuO82xxrcF1ZaBrMHBS4s="
     }
   },
   "storage": {
-    "s3acuserstroageugc": {
+    "anappauthamplifyc00e67fd": {
       "service": "S3",
+      "serviceType": "imported",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
-      "lastPushTimeStamp": "2022-02-16T01:37:57.931Z",
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-authcra-devm-141843-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
-        "logicalId": "storages3acuserstroageugc"
-      },
       "output": {
         "BucketName": "ac-user-stroage-ugc141843-devm",
         "Region": "ap-southeast-1"
       },
-      "lastPushDirHash": "Yehe+tQYGk9S8+ZubRuad65n45A="
+      "lastPushTimeStamp": "2022-02-16T02:26:48.101Z"
+    },
+    "ugcuploads": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "lastPushTimeStamp": "2022-02-16T02:51:28.946Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-authcra-devm-141843-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storageugcuploads"
+      },
+      "output": {
+        "BucketName": "ac-upload-storage-ab141843-devm",
+        "Region": "ap-southeast-1"
+      },
+      "lastPushDirHash": "Jn93G5KsIFodACZqnvqm21loBX0="
     }
   }
 }

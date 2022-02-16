@@ -14,6 +14,12 @@
     "categories": {
       "auth": {
         "cognitocf0c6096": {}
+      },
+      "storage": {
+        "anappauthamplifyc00e67fd": {
+          "bucketName": "ac-user-stroage-ugc141843-devm",
+          "region": "ap-southeast-1"
+        }
       }
     }
   }

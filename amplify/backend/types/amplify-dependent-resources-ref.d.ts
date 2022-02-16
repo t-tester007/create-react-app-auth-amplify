@@ -4,14 +4,15 @@ export type AmplifyDependentResourcesAttributes = {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
+            "UserPoolArn": "string",
             "UserPoolName": "string",
             "AppClientIDWeb": "string",
             "AppClientID": "string",
-            "AppClientSecret": "string"
+            "CreatedSNSRole": "string"
         }
     },
     "storage": {
-        "s3acuserstroageugc": {
+        "ugcuploads": {
             "BucketName": "string",
             "Region": "string"
         }
