@@ -1,0 +1,10 @@
+{
+  "resourceName": "s3acuserstroageugc",
+  "bucketName": "ac-user-stroage-ugc",
+  "policyUUID": "a31a2e00",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE"
+  ]
+}
