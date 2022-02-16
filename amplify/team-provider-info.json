@@ -19,6 +19,10 @@
         "anappauthamplifyc00e67fd": {
           "bucketName": "ac-user-stroage-ugc141843-devm",
           "region": "ap-southeast-1"
+        },
+        "ugcuploads": {
+          "bucketName": "ac-user-stroage-ab141843-devm",
+          "region": "ap-southeast-1"
         }
       }
     }

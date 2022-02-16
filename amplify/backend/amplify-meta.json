@@ -27,7 +27,7 @@
         "CreatedSNSRole": "arn:aws:iam::061052618044:role/snsundefined141843-devm",
         "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-1:061052618044:userpool/ap-southeast-1_P00sDIWWr"
       },
-      "lastPushTimeStamp": "2022-02-16T02:50:58.064Z",
+      "lastPushTimeStamp": "2022-02-16T03:03:50.697Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-authcra-devm-141843-deployment/amplify-cfn-templates/auth/cognitocf0c6096-cloudformation-template.json",
         "logicalId": "authcognitocf0c6096"
@@ -74,7 +74,7 @@
       "service": "S3",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
-      "lastPushTimeStamp": "2022-02-16T02:51:28.946Z",
+      "lastPushTimeStamp": "2022-02-16T03:03:53.582Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-authcra-devm-141843-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
         "logicalId": "storageugcuploads"
