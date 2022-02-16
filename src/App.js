@@ -16,12 +16,22 @@ class App extends Component {
   };
 
   uploadImage = () => {
-    Storage.put(`userimages/${this.upload.files[0].name}`,
+  
+
+     Storage.configure({ 
+          bucket: "ac-users-storage-upload141843-devm",
+          level: "private",
+          region: "ap-southeast-1",  
+          identityPoolId: "ap-southeast-1:f9cac8e9-9c0c-46c2-8893-a2fa87a90591" 
+       });
+
+    this.setState({response: "Uploading file..."});
+    Storage.put(`videos/${this.upload.files[0].name}`,
                 this.upload.files[0],
                 { contentType: this.upload.files[0].type })
       .then(result => {
         this.upload = null;
-        this.setState({ response: "Success uploading file!" });
+        this.setState({ response: "Successfully uploaded the file!" });
       })
       .catch(err => {
         this.setState({ response: `Cannot uploading file: ${err}` });
@@ -35,7 +45,7 @@ class App extends Component {
         <h2>S3 Upload...</h2>
         <input
           type="file"
-          accept="image/png, image/jpeg"
+          accept="video/mp4, video/quicktime"
           style={{ display: "none" }}
           ref={ref => (this.upload = ref)}
           onChange={e =>
@@ -46,7 +56,7 @@ class App extends Component {
           }
         />
         <input value={this.state.imageName} placeholder="Select file" />
-        <button
+	<button
           onClick={e => {
             this.upload.value = null;
             this.upload.click();
